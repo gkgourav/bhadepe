@@ -6,7 +6,6 @@
 .box1{
     background-color: brown;
     height: 30vh;
-    border-radius: 10px;
     text-align: center;
 }
 .box1 h1{
@@ -21,12 +20,13 @@
 .box2 button{
     margin-top: 20px;
     outline: 0;
-    height: 30px;
-    width: 70px;
+    height: 35px;
+    width: 75px;
     border: none;
     background-color: transparent;
     text-decoration: double underline;
     font-weight: 900;
+    font-size: 17px;
     cursor: pointer;
     
 }
@@ -57,7 +57,7 @@
     background-color: violet;
     bottom: 0;
     width: 100%;
-    height: 35px;
+    height: 45px;
 }
 .box4_1{
     display: flex;
@@ -68,5 +68,5 @@
     outline: 0;
     border: transparent;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
 }
