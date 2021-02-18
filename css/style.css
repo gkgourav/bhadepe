@@ -17,23 +17,38 @@
     margin: 50px;
 }
 
+.search{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid white;
+    border-left: 2px solid black;
+}
+
+.location{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid white;
+    border-right: 2px solid black;
+}
+
 .box2 button{
-    margin-top: 20px;
+    margin-top: 10px;
+    background: transparent;
     outline: 0;
-    height: 35px;
-    width: 75px;
-    border: none;
-    background-color: transparent;
-    text-decoration: double underline;
-    font-weight: 900;
-    font-size: 17px;
+    border-top: 1px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid white;
     cursor: pointer;
-    
 }
 
 .box2 button:hover{
-    background-color: red;
-    border-radius: 10px;
+    background-color: rgba(129, 0, 0, 0.801);
+    border-bottom: 1px solid white;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 1px solid white;
+    color: white;
 }
 
 .box3_1{
